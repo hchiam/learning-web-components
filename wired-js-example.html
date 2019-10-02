@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@latest/webcomponents-loader.js"></script>
+    <script async src="https://unpkg.com/wired-elements@latest/dist/wired-elements.bundled.js"></script>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background: #777;
+      }
+
+      a:hover {
+        color: lime;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- here they are: -->
+    <wired-input placeholder="Your name"></wired-input>
+    <wired-button>Submit</wired-button>
+
+    <p>See a list of all components: <a href="https://wiredjs.com/showcase.html" target="_blank">Showcase</a> or <a href="https://github.com/wiredjs/wired-elements" target="_blank">GitHub</a></p>
+
+    <script>
+      const button = document.querySelector("wired-button");
+      const input = document.querySelector("wired-input");
+
+      button.addEventListener("click", () => {
+        const name = input.value.trim();
+        window.alert(`Hello ${name}!`);
+      });
+
+      input.addEventListener('keypress', function (e) {
+        const key = e.which || e.keyCode;
+        const hitEnterKey = key === 13;
+        if (hitEnterKey) {
+          const name = input.value.trim();
+          window.alert(`Hello ${name}!`);
+        }
+      });
+    </script>
+  </body>
+</html>
