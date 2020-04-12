@@ -33,3 +33,9 @@ Make your own custom web component: https://developers.google.com/web/fundamenta
 More info on web components: https://developers.google.com/web/fundamentals/web-components 
 
 Video intro on web components: https://www.youtube.com/watch?v=YBwgkr_Sbx0
+
+## Shadow DOM:
+
+https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
+
+https://github.com/hchiam/learning-shadow-dom/blob/master/README.md
