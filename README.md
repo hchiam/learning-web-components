@@ -30,7 +30,7 @@ Model-viewer example: https://github.com/GoogleWebComponents/model-viewer
 
 Make your own custom web component: https://developers.google.com/web/fundamentals/web-components/customelements
 
-More info on web components: https://developers.google.com/web/fundamentals/web-components 
+More info on web components: https://developers.google.com/web/fundamentals/web-components
 
 Video intro on web components: https://www.youtube.com/watch?v=YBwgkr_Sbx0
 
