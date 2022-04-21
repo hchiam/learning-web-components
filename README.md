@@ -34,6 +34,8 @@ More info on web components: https://developers.google.com/web/fundamentals/web-
 
 Video intro on web components: https://www.youtube.com/watch?v=YBwgkr_Sbx0
 
+7 Web Component Tricks: https://daverupert.com/2022/04/7-web-component-tricks
+
 ## Shadow DOM:
 
 https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
