@@ -4,6 +4,13 @@ Just one of the things I'm learning. https://github.com/hchiam/learning
 
 Web components can be used with any framework.
 
+Open WC has a project/component starter, similar to [`create-react-app`](https://github.com/hchiam/learning-reactjs):
+
+```sh
+npm init @open-wc
+# can generate/update a component or project, with nice recommendations/suggestions
+```
+
 ## You can make your own custom web component from scratch with native browser JS:
 
 ```js
